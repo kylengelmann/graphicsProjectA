@@ -431,6 +431,7 @@ function main() {
   mainCam.setPosition([0, -22, 8]);
 
   mainCam.setRotation(-16, 1, 0, 0);
+  Controls.camAngles[0] = -16;
 
 
   var springs = [];
